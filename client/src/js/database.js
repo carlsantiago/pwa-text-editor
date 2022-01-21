@@ -1,4 +1,3 @@
-import { request } from "express";
 import { openDB } from "idb";
 
 const initdb = async () =>
@@ -33,11 +32,11 @@ export const getData = async () => {
 
   const store = tx.objectStore("jate");
 
-  const request = store.getAll(content, 0);
+  const request = store.getAll();
 
   const result = await request;
-  console.log("result.value", result[0]);
-  return result[0];
+  console.log("result.value", result[0].content);
+  return result[0].content;
 };
 
 initdb();
