@@ -31,7 +31,7 @@ Use this command to start
 npm start
 ```
 
-## Alternatively, you can use the deployed app on [Heroku](https://dashboard.heroku.com/apps/j-a-t-e)
+## Alternatively, you can use the deployed app on [Heroku](https://j-a-t-e.herokuapp.com/)
 
 ---
 
